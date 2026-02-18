@@ -1,4 +1,4 @@
-//SSM2CSS
+//GAEMHopeCSS
 $yellow: #FFE800;
 $brown: #404040;
 $blue: #1CD3F8;
@@ -979,6 +979,7 @@ img{object-fit: contain !important;}
 }#tooltip{
 
 width: 38em;
+
 
 
 }
