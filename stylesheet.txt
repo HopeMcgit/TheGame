@@ -1,4 +1,4 @@
-//GAEMHopeCSS
+//CCC4CSS
 $yellow: #FFE800;
 $brown: #404040;
 $blue: #1CD3F8;
@@ -687,11 +687,12 @@ title {
 }
  
 .thing.bigButton, .thing-icon {
-top: 21%;
-left: 51%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 background-repeat: no-repeat;
     opacity: 1;
-    transform: scale(1);
     transition: transform 0.00s ease-out;
 	
 }
@@ -701,10 +702,8 @@ z-index: -2 !important;
 }
 .thing.bigButton:hover, .thing-icon:hover {
 background-repeat: no-repeat;
-    transform: scale(1);
-    transition: transform 0.00s ease-out;
-    transition: transform 0.00s ease-in;
-	
+    transform: translate(-50%, -50%) scale(1.05);
+    transition: transform 0.2s ease-out;
 	
 }
  
@@ -735,9 +734,9 @@ background-repeat: no-repeat;
 }
 }
  
-.thing.bigButton .thing-icon{transform:scale(1);}
-.thing.bigButton:hover .thing-icon{transform:scale(1);}
-.thing.bigButton:active .thing-icon{transform:scale(1);}
+.thing.bigButton .thing-icon{transform:translate(-50%, -50%);}
+.thing.bigButton:hover .thing-icon{transform:translate(-50%, -50%) scale(1.05);}
+.thing.bigButton:active .thing-icon{transform:translate(-50%, -50%) scale(0.95);}
 
 div {
     display: visible !important;
@@ -981,7 +980,4 @@ img{object-fit: contain !important;}
 width: 38em;
 
 
-
 }
-
-
