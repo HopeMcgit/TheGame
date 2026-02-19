@@ -687,8 +687,8 @@ title {
 }
  
 .thing.bigButton, .thing-icon {
-top: 201%;
-left: 501%;
+top: 21%;
+left: 51%;
 background-repeat: no-repeat;
     opacity: 1;
     transform: scale(1);
@@ -983,4 +983,5 @@ width: 38em;
 
 
 }
+
 
